@@ -8,7 +8,7 @@ function App() {
   const featuredPup = puppies.find((pup) => pup.id === featPupId);
   console.log("featuredPup: ", featuredPup);
   return (
-    <div className="App">
+    <div className="pupId">
       {featPupId && (
         <div>
           <h2>{featuredPup.name}</h2>
